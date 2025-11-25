@@ -71,7 +71,7 @@ const PriceListPreview: React.FC<{
                       <span className={`font-semibold text-gray-200 ${nameSize} truncate pl-2`}>{item.name}</span>
                       <span className={`font-bold text-amber-400 font-mono-digital ${priceSize} whitespace-nowrap`}>
                         {Number(item.price).toLocaleString('fa-IR')}
-                        {activeCount === 1 && <span className="text-xs mr-2 text-gray-500">تومان</span>}
+                        <span className="text-xs mr-2 text-gray-500">تومان</span>
                       </span>
                     </div>
                   ))}
